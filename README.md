@@ -4,7 +4,9 @@
 
 `agentic-search` is an end-to-end agent that plans, searches, scrapes, extracts, resolves, and fills gaps to produce a comparison table for any topic. It goes beyond the standard *search → extract* pipeline by being **agentic**: it infers its own schema, expands its own queries, deduplicates entities across sources, and autonomously fires follow-up searches to fill missing cells.
 
-![demo](docs/ciir-demo.gif)
+![demo](docs/demo.gif)
+
+![ciir demo](docs/ciir-demo.gif)
 
 ## Quick start
 
