@@ -1,0 +1,10 @@
+[
+  {"query": "AI startups in healthcare", "expected_entity_type": "company"},
+  {"query": "top pizza places in Brooklyn", "expected_entity_type": "restaurant"},
+  {"query": "open source database tools", "expected_entity_type": "software"},
+  {"query": "best universities for computer science", "expected_entity_type": "university"},
+  {"query": "electric vehicle companies", "expected_entity_type": "company"},
+  {"query": "popular JavaScript frameworks 2025", "expected_entity_type": "framework"},
+  {"query": "coworking spaces in San Francisco", "expected_entity_type": "coworking space"},
+  {"query": "top venture capital firms", "expected_entity_type": "firm"}
+]

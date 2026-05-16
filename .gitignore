@@ -1,2 +1,8 @@
-AGENTIC_SEARCH_SPEC.md
-challenge.md
+.venv/
+__pycache__/
+*.pyc
+.env
+data/
+node_modules/
+dist/
+.DS_Store
