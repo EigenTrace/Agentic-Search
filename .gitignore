@@ -7,3 +7,5 @@ node_modules/
 dist/
 .DS_Store
 *.mov
+AGENTIC_SEARCH_SPEC.md
+challenge.md
