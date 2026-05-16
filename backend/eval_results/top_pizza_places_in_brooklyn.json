@@ -1,0 +1,1859 @@
+{
+  "query": "top pizza places in Brooklyn",
+  "entity_type": "restaurant",
+  "columns": [
+    "name",
+    "neighborhood",
+    "cuisine_style",
+    "price_range",
+    "rating",
+    "signature_dish",
+    "address",
+    "website"
+  ],
+  "n_entities": 25,
+  "fill_rate": 0.62,
+  "confidence_distribution": {
+    "medium": 97,
+    "low": 25,
+    "high": 1,
+    "unverified": 1
+  },
+  "cost_usd": 0.0843,
+  "latency_s": 90.31,
+  "llm_calls": 37,
+  "pages_scraped": 26,
+  "result": {
+    "query": "top pizza places in Brooklyn",
+    "schema": {
+      "entity_type": "restaurant",
+      "columns": [
+        "name",
+        "neighborhood",
+        "cuisine_style",
+        "price_range",
+        "rating",
+        "signature_dish",
+        "address",
+        "website"
+      ],
+      "column_descriptions": {
+        "name": "Name of the pizza restaurant",
+        "neighborhood": "Brooklyn neighborhood where the restaurant is located",
+        "cuisine_style": "Type of pizza style (e.g., Neapolitan, New York-style, Sicilian, wood-fired)",
+        "price_range": "Price range indicator (e.g., $, $$, $$$, or average cost per pizza)",
+        "rating": "Customer rating or review score (e.g., Yelp rating, Google rating)",
+        "signature_dish": "Most popular or signature pizza offering",
+        "address": "Street address of the restaurant",
+        "website": "Official website URL"
+      }
+    },
+    "entities": [
+      {
+        "entity_name": "Luigi's Pizza",
+        "cells": {
+          "name": {
+            "value": "Luigi's Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Luigi's Pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "686 5th Ave, Brooklyn, NY 11215, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "execution of a traditional NY slice",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "9.1",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "9.1 (Portnoy 9,3)",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "fresh mozz slice",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "I'm told the fresh mozz slice is also really good",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": [
+              "slices"
+            ]
+          },
+          "address": {
+            "value": "686 5th Ave, Brooklyn, NY 11215, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "686 5th Ave, Brooklyn, NY 11215, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://luigis-pizza.com/",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://luigis-pizza.com/",
+                "page_title": "Best Pizza in Steele Creek, Charlotte, NC | Luigi&apos;s Pizza",
+                "quote_snippet": "Text source attribution: (from https://luigis-pizza.com/)",
+                "scraped_at": "2026-05-16T21:01:02+00:00"
+              },
+              {
+                "url": "http://luigisfreedelivery.com/",
+                "page_title": "Luigi\u2019s Pizza - Free Delivery",
+                "quote_snippet": "Text is from http://luigisfreedelivery.com/ as indicated in the source attribution",
+                "scraped_at": "2026-05-16T21:01:01+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Baby Luc's",
+        "cells": {
+          "name": {
+            "value": "Baby Luc's",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Baby Luc's",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "387 Court St, Brooklyn, NY 11231, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "thinner square slices",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "8.7",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "8.7 (Portnoy 8.2)",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "square slices",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "thinner square slices, and they only have 3 -4 options to choose from",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "387 Court St, Brooklyn, NY 11231, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "387",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "price_range": {
+            "value": "$$",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.babylucs.com/menu/menu",
+                "page_title": "Menu | Baby Luc's in Brooklyn, NY",
+                "quote_snippet": "Pizza slices $4.50-$6.50, pies $32-$45, sandwiches $20, entrees $15, indicating moderate pricing",
+                "scraped_at": "2026-05-16T21:01:06+00:00"
+              },
+              {
+                "url": "https://www.babylucs.com/menu/menu",
+                "page_title": "Menu | Baby Luc's in Brooklyn, NY",
+                "quote_snippet": "Cocktails $12-$15, Beer $7-$10, Wine $8-$12, indicating moderate pricing",
+                "scraped_at": "2026-05-16T21:01:06+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://www.babylucs.com/",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.babylucs.com/",
+                "page_title": "Baby Luc's | Pizza Place in Brooklyn, NY",
+                "quote_snippet": "from https://www.babylucs.com/",
+                "scraped_at": "2026-05-16T21:01:09+00:00"
+              },
+              {
+                "url": "https://www.babylucs.com/about",
+                "page_title": "About | Baby Luc's in Brooklyn, NY",
+                "quote_snippet": "The source URL provided at the beginning of the text is https://www.babylucs.com/about, indicating the official website is www.babylucs.com",
+                "scraped_at": "2026-05-16T21:01:09+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Brooklyn DOP",
+        "cells": {
+          "name": {
+            "value": "Brooklyn DOP",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Brooklyn DOP",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "237 5th Ave, Brooklyn, NY 11215, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "thin square sausage slice, which was really good",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "8.1",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "8.1 (Portnoy 8.1)",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "thin square sausage slice",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "thin square sausage slice, which was really good",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "237 5th Ave, Brooklyn, NY 11215, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "237 5th Ave, Brooklyn, NY 11215, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "price_range": {
+            "value": "$$",
+            "confidence": "unverified",
+            "sources": [
+              {
+                "url": "https://www.doordash.com/en/store/brooklyn-dop-brooklyn-24251048",
+                "page_title": "Order Brooklyn DOP - Brooklyn, NY Menu Delivery [Menu &amp; Prices] | Brooklyn - DoorDash",
+                "quote_snippet": "$$\u2022Pizzeria",
+                "scraped_at": "2026-05-16T21:01:13+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Giuseppina's",
+        "cells": {
+          "name": {
+            "value": "Giuseppina's",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Giuseppina's",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "691 6th Ave, Brooklyn, NY 11215, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "wood-fired",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "their massive oven is located towards the back of the restaurant",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "price_range": {
+            "value": "$40 for the pie",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Giuseppina's ended up being $40 for the pie all-in",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "8.8",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "8.8 (Portony 8.1, though the audience score on the app is 8.6",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "691 6th Ave, Brooklyn, NY 11215, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "691 6th Ave, Brooklyn, NY 11215, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Lucali",
+        "cells": {
+          "name": {
+            "value": "Lucali",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Lucali",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "wood-fired",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "The crust, thin and slightly charred, was a testament to the perfection achievable with a brick oven.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "price_range": {
+            "value": "$$$",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "In the heart of Brooklyn lies Lucali, an upscale eatery",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "9.3",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Lucali, which is largely recognized as some of the best pizza in the world (Portnoy 9.3).",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "Margherita and pepperoni pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "I chose a half Margherita, half pepperoni pizza, and it was a culinary delight.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "575 Henry St, Brooklyn, NY 11231, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "575 Henry St, Brooklyn, NY 11231, United States // +17188584086",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Wheated",
+        "cells": {
+          "name": {
+            "value": "Wheated",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Wheated",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Ditmas Park",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "David Sheridan has created a beloved institution in Ditmas Park with Wheated",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "sourdough-crusted",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "a long list of 16-inch sourdough-crusted beauties",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": [
+              "Neapolitan-style"
+            ]
+          },
+          "signature_dish": {
+            "value": "The Sunset Park with soppressata and mozzarella, and the Canarsie with spinach and spicy sausage",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "The Sunset Park with soppressata and mozzarella, and the Canarsie with spinach and spicy sausage",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "905 Church Ave.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "905 Church Ave.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "F&F Restaurant",
+        "cells": {
+          "name": {
+            "value": "F&F Restaurant",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "F&F Restaurant",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Carroll Gardens",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "The irrepressible Franks of Carroll Gardens",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Neapolitan-style pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "the sweetest of sweet spots at F&F is the Neapolitan-style pizza",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "calamari pie, and the one with fennel sausage and well-pickled shallots",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "especially the calamari pie, and the one with fennel sausage and well-pickled shallots",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "465 Court St.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "465 Court St.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Leo",
+        "cells": {
+          "name": {
+            "value": "Leo",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Leo",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Williamsburg",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Neapolitan",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "The Neapolitan pies here are fantastic",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "clam pie",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Leo's lively clam pie is probably my favorite briny pizza in the city",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "123 Havemeyer St.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "123 Havemeyer St.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "The Astarita",
+        "cells": {
+          "name": {
+            "value": "The Astarita",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "The Astarita",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Park Slope",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Neapolitan and New York-style hybrid",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "combining Neapolitan and classic New York styles",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "eight-slice pies",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "excellent eight-slice pies from the brick oven",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "797 Fifth Ave.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "797 Fifth Ave.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "L'arte Della Pizza Brooklyn",
+        "cells": {
+          "name": {
+            "value": "L'arte Della Pizza Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "L'arte Della Pizza Brooklyn",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "172 5th Ave, Brooklyn, NY 11217, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "super solid traditional NY slice",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "traditional NY slice",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "super solid traditional NY slice",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "172 5th Ave, Brooklyn, NY 11217, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "172 5th Ave, Brooklyn, NY 11217, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Wizard Hat Pizza",
+        "cells": {
+          "name": {
+            "value": "Wizard Hat Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Wizard Hat Pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "539 Rogers Ave, Brooklyn, NY 11225, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "The crust was perfectly crisp, each bite echoing the freshness of the ingredients.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "classic cheese pie",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "I opted for the classic cheese pie, a choice that proved to be anything but ordinary.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "539 Rogers Ave, Brooklyn, NY 11225, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "539 Rogers Ave, Brooklyn, NY 11225, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Paulie Gee's Slice Shop",
+        "cells": {
+          "name": {
+            "value": "Paulie Gee's Slice Shop",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Paulie Gee's Slice Shop",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Continuing my exploration of Brooklyn's best pizza joints, I found myself at Paulie Gee's Slice Shop",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Starting with the regular crust, it was a homage to the classic New York slice\u2014thin, crisp, and utterly delicious.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "Hellboy slice",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Then came the Hellboy slice, a square piece of heaven.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "110 Franklin St, Brooklyn, NY 11222, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "110 Franklin St, Brooklyn, NY 11222, United States // +19293376385",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Speedy Romeo",
+        "cells": {
+          "name": {
+            "value": "Speedy Romeo",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Speedy Romeo",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "376 Classon Ave, Brooklyn, NY 11238, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "wood-fired",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "this eatery effortlessly blends the charm of wood-fired pizzas with the allure of Italian fare",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "The White Album",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "My choice for the evening was \"The White Album\", a decision that led to an unforgettable culinary experience.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "376 Classon Ave, Brooklyn, NY 11238, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "376 Classon Ave, Brooklyn, NY 11238, United States // +16465421848",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Best Pizza",
+        "cells": {
+          "name": {
+            "value": "Best Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Best Pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Williamsburg",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "33 Havemeyer St, Brooklyn, NY 11211",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Sicilian, wood-fired",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "serves up some of the most delightful wood-fired pies",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": [
+              "New York-style"
+            ]
+          },
+          "signature_dish": {
+            "value": "Grandma Slice",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "their renowned Grandma slices",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": [
+              "NY slice"
+            ]
+          },
+          "address": {
+            "value": "33 Havemeyer St, Brooklyn, NY 11211, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "33 Havemeyer St, Brooklyn, NY 11211, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Table 87",
+        "cells": {
+          "name": {
+            "value": "Table 87",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "10. Table 87",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Coal-fired pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Cuisine: Coal-fired pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "price_range": {
+            "value": "$$",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Price: $$",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "4.6 out of 929 reviews",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Rating: 4.6 out of 929 reviews",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "473 3rd Ave, Brooklyn, NY 11215",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Location: 473 3rd Ave, Brooklyn, NY 11215",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "GANNI'S PIZZERIA",
+        "cells": {
+          "name": {
+            "value": "GANNI'S PIZZERIA",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "11. GANNI'S PIZZERIA",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Pizza, lasagna",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Cuisine: Pizza, lasagna",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "price_range": {
+            "value": "$",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Price: $",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "4.3 out of 712 reviews",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Rating: 4.3 out of 712 reviews",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "652 Myrtle Ave, Brooklyn, NY 11205",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Location: 652 Myrtle Ave, Brooklyn, NY 11205",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Lucky Charlie",
+        "cells": {
+          "cuisine_style": {
+            "value": "coal oven",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "your pizza is fired in Brooklyn's oldest coal oven",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "sturdy eight-slice beasts topped with the classics",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "sturdy eight-slice beasts topped with the classics",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "254 Irving Pl.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "254 Irving Pl.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "name": {
+            "value": "Lucky Charlie",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "your pizza is fired in Brooklyn's oldest coal oven",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Chrissy's Pizza",
+        "cells": {
+          "name": {
+            "value": "Chrissy's Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Chrissy's Pizza",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "New York-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "eight-slice masterpieces",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "pepperoni",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "The straight-up pepperoni is our family-favorite",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "142 Nassau Ave.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "142 Nassau Ave.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Il Leone",
+        "cells": {
+          "name": {
+            "value": "Il Leone",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Il Leone",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Neapolitan-style",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "a Neapolitan-style pie\u2014tangy, salty, kinda floppy in the middle",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "Isola pie",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "his Isola pie, a singular creation, perfected during his time on Peak's Island",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "158 Seventh Ave.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "158 Seventh Ave.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Ops",
+        "cells": {
+          "name": {
+            "value": "Ops",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Ops",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Bushwick",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Ops one of Bushwick's most consistent hot spots",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "the potato, broccoli rabe, and anchovy pie (aka, the Juno); and the Pops pie, starring the house mozz and slices of funky guanciale",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "the potato, broccoli rabe, and anchovy pie (aka, the Juno), which was crazy rich and good; and the Pops pie, starring the house mozz and slices of fun",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "346 Himrod St.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "346 Himrod St.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Roberta's",
+        "cells": {
+          "name": {
+            "value": "Roberta's",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "Roberta's",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Williamsburg",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "bee sting pie",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "their \"bee sting\" pie, topped with spicy soppressata, chili, and honey",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "261 Moore St.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.bkmag.com/2026/03/02/best-whole-pie-pizza-restaurants-brooklyn",
+                "page_title": "The Nine Best Whole-Pie Pizza Spots in Brooklyn Right Now",
+                "quote_snippet": "261 Moore St.",
+                "scraped_at": "2026-05-16T21:00:08+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Di Fara Pizza",
+        "cells": {
+          "name": {
+            "value": "Di Fara Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Di Fara Pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "It's definitely one of the best pizza restaurants in Brooklyn.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "regular slice and square slice",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "We got one slice of the regular and one of the square, which was also good if you want to mix it up",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": [
+              "whole pie"
+            ]
+          },
+          "address": {
+            "value": "1424 Avenue J, Brooklyn, NY 11230, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "1424 Avenue J, Brooklyn, NY 11230, United States // +17182581367",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "F&F Pizzeria",
+        "cells": {
+          "name": {
+            "value": "F&F Pizzeria",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "F&F Pizzeria",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Brooklyn",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "459 Court St, Brooklyn, NY 11231, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "rating": {
+            "value": "7.7",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "7.7 (Portnoy 8.7)",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "459 Court St, Brooklyn, NY 11231, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "459 Court St, Brooklyn, NY 11231, United States",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Emmy Squared Pizza",
+        "cells": {
+          "name": {
+            "value": "Emmy Squared Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Emmy Squared Pizza: Park Slope",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "neighborhood": {
+            "value": "Park Slope",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Emmy Squared Pizza: Park Slope",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "signature_dish": {
+            "value": "Colony and Good Pauline pizzas",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "I dove into the Colony and Good Pauline pizzas, each a flavor masterpiece.",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "315 5th Ave, Brooklyn, NY 11215, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "315 5th Ave, Brooklyn, NY 11215, United States // +13479661003",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Dellarocco's Brick Oven Pizza",
+        "cells": {
+          "name": {
+            "value": "Dellarocco's Brick Oven Pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Dellarocco's Brick Oven Pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "cuisine_style": {
+            "value": "Thin-crust, Brick-oven pizza",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Cuisine: Thin-crust, Brick-oven pizza",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "address": {
+            "value": "214 Hicks St, Brooklyn, NY 11201",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.foodieflashpacker.com/pizza-restaurants-in-brooklyn",
+                "page_title": "Dough Masters: The 16 Best Pizza Restaurants in Brooklyn | Best Pizza In Brooklyn Updated January 2024",
+                "quote_snippet": "Location: 214 Hicks St, Brooklyn, NY 11201",
+                "scraped_at": "2026-05-16T21:00:11+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      }
+    ],
+    "suggested_followups": [
+      "best Italian restaurants in Brooklyn besides pizza",
+      "top rated pasta places in Brooklyn",
+      "new restaurant openings in Brooklyn 2024",
+      "Brooklyn pizza delivery with highest ratings"
+    ],
+    "cost": {
+      "total_search_api_calls": 12,
+      "total_pages_scraped": 26,
+      "total_llm_calls": 37,
+      "total_input_tokens": 23373,
+      "total_output_tokens": 11288,
+      "estimated_cost_usd": 0.0843,
+      "wall_clock_seconds": 90.31
+    }
+  }
+}

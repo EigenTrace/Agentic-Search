@@ -1,0 +1,1244 @@
+{
+  "query": "open source database tools",
+  "entity_type": "software tool",
+  "columns": [
+    "name",
+    "website",
+    "database_type",
+    "license",
+    "primary_language",
+    "github_stars",
+    "latest_version",
+    "use_cases",
+    "description"
+  ],
+  "n_entities": 16,
+  "fill_rate": 0.486,
+  "confidence_distribution": {
+    "medium": 18,
+    "low": 39,
+    "unverified": 2,
+    "high": 11
+  },
+  "cost_usd": 0.0931,
+  "latency_s": 57.06,
+  "llm_calls": 35,
+  "pages_scraped": 31,
+  "result": {
+    "query": "open source database tools",
+    "schema": {
+      "entity_type": "software tool",
+      "columns": [
+        "name",
+        "website",
+        "database_type",
+        "license",
+        "primary_language",
+        "github_stars",
+        "latest_version",
+        "use_cases",
+        "description"
+      ],
+      "column_descriptions": {
+        "name": "Name of the open source database tool",
+        "website": "Official website URL",
+        "database_type": "Type of database (e.g., relational, NoSQL, document, graph, time-series)",
+        "license": "Open source license type (e.g., MIT, Apache 2.0, GPL)",
+        "primary_language": "Primary programming language the tool is written in",
+        "github_stars": "Number of GitHub stars (popularity metric)",
+        "latest_version": "Most recent stable version number",
+        "use_cases": "Common use cases or applications",
+        "description": "Brief description of the tool and its key features"
+      }
+    },
+    "entities": [
+      {
+        "entity_name": "H2 Database",
+        "cells": {
+          "name": {
+            "value": "H2 Database",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "H2 Database: In-Memory Database for Testing and Development",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Java-based SQL database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "primary_language": {
+            "value": "Java",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Java-based SQL database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "testing and development",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Primarily used in testing and development",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "A Java-based SQL database known for its lightweight and fast nature, primarily used in testing and development environments.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "The H2 Database is another Java-based SQL database known for its lightweight and fast nature. Primarily used in testing and development",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://www.h2database.com/",
+            "confidence": "unverified",
+            "sources": [
+              {
+                "url": "https://www.h2database.com/",
+                "page_title": "H2 Database Engine (redirect)",
+                "quote_snippet": "Text source attribution: (from https://www.h2database.com/)",
+                "scraped_at": "2026-05-16T21:01:57+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "license": {
+            "value": "Eclipse Public License 1.0 (EPL 1.0) / Mozilla Public License 1.1 (MPL 1.1)",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://docs.oracle.com/cd/E37069_01/html/E37094/gnfgb.html",
+                "page_title": "H2 -  Oracle&reg; Solaris Studio 12.4: Third Party Notices         and Licenses",
+                "quote_snippet": "H2 is dual licensed and available under a modified version of the MPL 1.1 (Mozilla Public License) or under the (unmodified) EPL 1.0 (Eclipse Public L",
+                "scraped_at": "2026-05-16T21:02:01+00:00"
+              },
+              {
+                "url": "https://docs.oracle.com/cd/E37069_01/html/E37094/gnfgb.html",
+                "page_title": "H2 -  Oracle&reg; Solaris Studio 12.4: Third Party Notices         and Licenses",
+                "quote_snippet": "The changes to the MPL are underlined. There is a license FAQ for both the MPL and the EPL, most of that is applicable to the H2 license as well.",
+                "scraped_at": "2026-05-16T21:02:01+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "latest_version": {
+            "value": "2.2.220",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://groups.google.com/g/h2-database/c/cfw6d4wSoUU",
+                "page_title": "H2 Database Engine: New version released",
+                "quote_snippet": "A new version 2.2.220 of H2 is available at http://www.h2database.com",
+                "scraped_at": "2026-05-16T21:02:06+00:00"
+              },
+              {
+                "url": "https://groups.google.com/g/h2-database/c/cfw6d4wSoUU",
+                "page_title": "H2 Database Engine: New version released",
+                "quote_snippet": "H2 last release (220): after insert /delete command : In runtime, after a few inserts and deletions to the database version 2.2.220",
+                "scraped_at": "2026-05-16T21:02:06+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "H2",
+        "cells": {
+          "name": {
+            "value": "H2",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "H2 includes a built-in console for querying and managing data easily.",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "SQL Console: H2 includes a built-in console",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "latest_version": {
+            "value": "2.0",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "H2's 2024 update includes improved support for complex data structures",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "testing, embedded applications, temporary database solution",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "remains a popular choice for developers who need a quick, temporary database solution",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "In-memory relational database with built-in SQL console for querying and managing data",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "H2's 2024 update includes improved support for complex data structures and JSON handling",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://h2.co/",
+            "confidence": "unverified",
+            "sources": [
+              {
+                "url": "https://h2.co/",
+                "page_title": "H2 | Global Leadership Network",
+                "quote_snippet": "Text (from https://h2.co/)",
+                "scraped_at": "2026-05-16T21:02:09+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "license": {
+            "value": "MPL 2.0 (Mozilla Public License Version 2.0) or EPL 1.0 (Eclipse Public License)",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "http://www.h2database.com/html/license.html",
+                "page_title": "License",
+                "quote_snippet": "H2 is dual licensed and available under the MPL 2.0 (Mozilla Public License Version 2.0) or under the EPL 1.0 (Eclipse Public License).",
+                "scraped_at": "2026-05-16T21:02:13+00:00"
+              },
+              {
+                "url": "http://www.h2database.com/html/license.html",
+                "page_title": "License",
+                "quote_snippet": "dual licensed and available under the MPL 2.0 (Mozilla Public License) or under the EPL 1.0 (Eclipse Public License)",
+                "scraped_at": "2026-05-16T21:02:13+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "PostgreSQL",
+        "cells": {
+          "name": {
+            "value": "PostgreSQL",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "PostgreSQL is often the first name that comes to mind when discussing robust, scalable open-source databases.",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "PostgreSQL",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "relational (implied by SQL database context and ACID compliance mention)",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Relational Databases (SQL)",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "applications requiring strong data accuracy, text search, semi-structured data handling, high-performance needs, diverse use cases",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "ACID-compliant: PostgreSQL ensures transactional integrity, making it suitable for applications requiring strong data accuracy. Full-Text Search and J",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "handling complex data, full-text search, complex queries, healthcare data retrieval optimization",
+              "Advanced analytics, full-text search, complex queries, scalable applications",
+              "Data warehousing, analytics, financial applications, and GIS systems",
+              "General purpose relational database",
+              "reliability"
+            ]
+          },
+          "description": {
+            "value": "Robust, scalable open-source database known for reliability, flexibility, and strong community support. ACID-compliant with MVCC, full-text search, JSON support, and geospatial support.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Known for its reliability, flexibility, and strong community support, PostgreSQL is used widely by companies that require advanced data capabilities w",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "Known as 'the world's most advanced open-source database,' PostgreSQL boasts a rich feature set, including support for complex queries, full-text search, and JSON data.",
+              "A robust database for handling complex data with advanced features supporting full-text search and complex queries, suitable for applications of all sizes",
+              "Advanced relational database supporting full-text search and complex queries, suitable for applications of all sizes"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Percona Server for MySQL",
+        "cells": {
+          "name": {
+            "value": "Percona Server for MySQL",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "MySQL: Powering Millions of Applications",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "MySQL",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "relational (implied by SQL database context)",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Relational Databases (SQL)",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "web developers and businesses running e-commerce platforms, mission-critical applications that need high availability",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "especially popular among web developers and businesses running e-commerce platforms",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "high-demand environments, large-scale enterprise environments, high-performance workloads",
+              "managing data in tables, cost-effective applications, scalable business operations",
+              "Web development, content management systems (CMS), and cloud-native applications",
+              "web applications, e-commerce platforms",
+              "General purpose relational database"
+            ]
+          },
+          "description": {
+            "value": "Open-source relational database owned by Oracle, widely supported and offers a balance of speed and functionality. Features scalable architecture with horizontal scaling, compatibility with various storage engines like InnoDB and MyISAM, enhanced replication features, group replication for automated failover, and clone plugin for data copy between servers.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Scalable Architecture: MySQL can scale horizontally, ideal for applications requiring massive data handling. Compatibility with Various Storage Engine",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "One of the most popular relational databases globally, MySQL powers countless web applications, from small blogs to large-scale e-commerce platforms.",
+              "Enhanced version of MySQL with improved performance, scalability, and data management capabilities",
+              "A reliable SQL database managing data in tables that is cost-effective, dependable, and scalable"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "MariaDB",
+        "cells": {
+          "name": {
+            "value": "MariaDB",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "MariaDB was created by the original developers of MySQL after Oracle's acquisition",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "MariaDB",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "database solution",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Relational Databases (SQL)",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "large-scale applications, analytical applications, applications that deal with geospatial data or semi-structured JSON data",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "large-scale applications",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "data-heavy applications, large-scale high-demand applications, analytics",
+              "SaaS applications, cloud platforms, and scalable web applications",
+              "flexibility"
+            ]
+          },
+          "description": {
+            "value": "Open-source relational database created by the original developers of MySQL after Oracle's acquisition. Known for compatibility with MySQL while offering unique independent features. Features improved query optimizer for complex queries, support for JSON and GIS data types, and advanced distributed SQL capabilities.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Improved Query Optimizer: The MariaDB optimizer can handle complex queries better than MySQL, especially for analytical applications. Supports JSON an",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "fork of MySQL, MariaDB was developed to address licensing concerns and introduce additional features. Advanced storage engines like ColumnStore for analytics. Enhanced performance and security compared to traditional MySQL. Open architecture with backward compatibility.",
+              "Advanced distributed SQL database with Spider Storage Engine for optimization, enhanced columnstore for analytics, and improved PL/SQL compatibility",
+              "A fork of MySQL, MariaDB was developed to address licensing concerns and introduce additional features."
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "SQLite",
+        "cells": {
+          "name": {
+            "value": "SQLite",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "SQLite stands out as an in-process, serverless database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "SQLite",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "in-process, serverless database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "lightweight, serverless database",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "mobile applications, IoT devices, testing purposes, embedded applications",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "widely used in mobile applications, IoT devices, and for testing purposes",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "Mobile apps (iOS, Android), IoT devices, and low-complexity projects"
+            ]
+          },
+          "description": {
+            "value": "A lightweight, serverless database that stores data in a single file, SQLite is perfect for embedded systems and mobile applications. Zero configuration with no need for a server process. Cross-platform support with a minimal footprint. ACID-compliant transactions.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "A lightweight, serverless database that stores data in a single file, SQLite is perfect for embedded systems",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "In-process, serverless, lightweight file-based database with ACID compliance, cross-platform compatibility, and support for encryption and strict typing"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Firebird",
+        "cells": {
+          "name": {
+            "value": "Firebird",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Firebird is a lesser-known yet powerful open-source SQL database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Firebird",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Supports complex SQL capabilities.",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "A lightweight relational database designed for embedded systems and small-scale applications.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "SQL"
+            ]
+          },
+          "use_cases": {
+            "value": "enterprise applications, industries where database size and licensing costs are considerations",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "often used in enterprise applications, particularly in industries where database size and licensing costs are considerations",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "smaller enterprises and developers needing a compact yet capable database solution",
+              "Embedded devices, small-scale web apps, and desktop software",
+              "Embedded systems and small-scale applications"
+            ]
+          },
+          "description": {
+            "value": "An open-source SQL database known for low-resource requirements and high performance, featuring multi-generation architecture for efficient concurrency handling and support for stored procedures and triggers.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "known for its low-resource requirements and high performance...Multi-Generation Architecture...High Performance with Low Resource Consumption...Stored",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "A lightweight relational database designed for embedded systems and small-scale applications with cross-platform support, minimal resource requirements, built-in security and multi-user capabilities"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "TimescaleDB",
+        "cells": {
+          "name": {
+            "value": "TimescaleDB",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "TimescaleDB: Purpose-Built for Time-Series Data",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "TimescaleDB",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "time-series",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "As a PostgreSQL extension, TimescaleDB brings advanced capabilities for time-series data applications.",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              },
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "TimescaleDB is a time-series database designed for handling time-stamped data.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "monitoring and IoT, financial services, IoT, and environmental monitoring",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Ideal for monitoring and IoT, making it highly relevant for sectors like financial services, IoT, and environmental monitoring",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "IoT data, financial market analysis, and monitoring systems",
+              "Time-series data management"
+            ]
+          },
+          "description": {
+            "value": "Built on PostgreSQL, TimescaleDB is a time-series database designed for handling time-stamped data. Scalable for high-ingest workloads with optimised query performance.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Built on PostgreSQL, TimescaleDB is a time-series database designed for handling time-stamped data.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Apache Derby",
+        "cells": {
+          "name": {
+            "value": "Apache Derby",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Apache Derby: The Java-Friendly Database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "relational",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Apache Derby is a lightweight, embedded SQL database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "primary_language": {
+            "value": "Java",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "fully written in Java",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "A lightweight, embedded SQL database that's fully written in Java, making it a popular choice for applications in the Java ecosystem.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "Apache Derby is a lightweight, embedded SQL database that's fully written in Java, making it a popular choice for applications in the Java ecosystem.",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "MongoDB",
+        "cells": {
+          "name": {
+            "value": "MongoDB",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "MongoDB",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "NoSQL document",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "A document-based NoSQL database",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "e-commerce platforms, flexibility and scalability for growing customer base and transaction volumes",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "an e-commerce platform, migrated to MongoDB to improve flexibility and scalability, supporting their growing customer base and transaction volumes",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "Big data handling, dynamic data management, real-time updates, scalable applications",
+              "Real-time analytics, content management systems, and IoT applications",
+              "NoSQL document database"
+            ]
+          },
+          "description": {
+            "value": "A document-based NoSQL database, MongoDB stores data in JSON-like documents, offering high flexibility. Schema-less design accommodates unstructured data. Built-in replication and sharding for horizontal scaling. Advanced query capabilities, including indexing and aggregation.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "A document-based NoSQL database, MongoDB stores data in JSON-like documents, offering high flexibility",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "A flexible NoSQL database for dynamic data that manages large volumes efficiently and supports real-time updates",
+              "A flexible NoSQL database that improves scalability and supports growing customer bases and transaction volumes"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "CockroachDB",
+        "cells": {
+          "name": {
+            "value": "CockroachDB",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "CockroachDB: Resilience and Scalability",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "distributed SQL",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "distributed SQL database",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "relational"
+            ]
+          },
+          "use_cases": {
+            "value": "cloud-native applications, high uptime requirements, multi-cloud deployments",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "designed for cloud-native applications",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "resilience"
+            ]
+          },
+          "description": {
+            "value": "A distributed SQL database designed for cloud-native applications, known for horizontal scalability and resilience with automatic sharding, replication, and self-healing capabilities.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://prateeksha.com/blog/exploring-the-top-10-sql-open-source-databases-for-2024-a-comprehensive-guide",
+                "page_title": "Top 10 Open Source SQL Databases for 2024 Guide",
+                "quote_snippet": "distributed SQL database designed for cloud-native applications...horizontal scalability and resilience...automatically handles data distribution...re",
+                "scraped_at": "2026-05-16T21:01:37+00:00"
+              }
+            ],
+            "conflicts": [
+              "Distributed SQL database designed for cloud-native applications, known for resilience and horizontal scalability"
+            ]
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Redis",
+        "cells": {
+          "name": {
+            "value": "Redis",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Redis",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "in-memory key-value store",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "An in-memory key-value store, Redis is celebrated for its speed and simplicity",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "NoSQL in-memory cache"
+            ]
+          },
+          "use_cases": {
+            "value": "real-time data processing, caching, logistics operations optimization",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "we implemented Redis caching to optimize real-time data processing, resulting in faster delivery times",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "Real-time applications, high-speed data access, live applications",
+              "Caching, session management, and real-time analytics",
+              "In-memory data store"
+            ]
+          },
+          "description": {
+            "value": "An in-memory database for quick, real-time access with ultra-fast data retrieval and minimal system overhead",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "An in-memory database for quick, real-time access. \u2013 Ultra-Fast: Provides instant data retrieval",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "An in-memory caching solution for optimizing real-time data processing and improving user experience"
+            ]
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "CouchDB",
+        "cells": {
+          "name": {
+            "value": "CouchDB",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "CouchDB",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "document database",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "CouchDB uses a JSON document model and offers robust offline-first capabilities",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "NoSQL, document"
+            ]
+          },
+          "use_cases": {
+            "value": "Mobile applications, CRM systems, and offline-first web apps",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Mobile applications, CRM systems, and offline-first web apps",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Supports offline and distributed systems with eventual consistency for high availability. Features replication and synchronisation for applications with intermittent connectivity.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Its replication and synchronisation features are perfect for applications with intermittent connectivity.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Neo4j",
+        "cells": {
+          "name": {
+            "value": "Neo4j",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Neo4j",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "graph",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "A graph database focused on relationships and connections",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "use_cases": {
+            "value": "Social networks, fraud detection, and recommendation engines",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Use Cases: Social networks, fraud detection, and recommendation engines.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "Graph-based data models and complex relationships"
+            ]
+          },
+          "description": {
+            "value": "A graph database focused on relationships and connections, ideal for analysing complex networks. Scalable for high-ingest workloads with optimised query performance.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Neo4j is ideal for analysing complex networks. Scalable for high-ingest workloads. Optimised query performance for time-series analysis.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "ClickHouse",
+        "cells": {
+          "name": {
+            "value": "ClickHouse",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "ClickHouse",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "time-series",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Log processing, business intelligence, and big data analytics",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "columnar"
+            ]
+          },
+          "use_cases": {
+            "value": "Log processing, business intelligence, and big data analytics",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Use Cases: Log processing, business",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "A columnar database optimised for real-time analytics, widely used for processing big data. Features high compression, fast query speeds, real-time data ingestion, and built-in SQL support.",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "ClickHouse is widely used for processing big data. High compression and fast query speeds. Supports real-time data ingestion. Built-in SQL support.",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "Widely used for processing big data with high compression and fast query speeds, supports real-time data ingestion, built-in SQL support"
+            ]
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Apache Cassandra",
+        "cells": {
+          "name": {
+            "value": "Apache Cassandra",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Apache Cassandra",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "database_type": {
+            "value": "distributed database",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Designed for high availability and scalability, Cassandra is a distributed database",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "NoSQL"
+            ]
+          },
+          "use_cases": {
+            "value": "Big data, IoT solutions, and logging systems",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://simplelogic-it.com/12-best-open-source-databases-in-2024",
+                "page_title": "12 Best Open-Source Databases in 2024 | Simple Logic",
+                "quote_snippet": "Big data, IoT solutions, and logging systems",
+                "scraped_at": "2026-05-16T21:01:39+00:00"
+              }
+            ],
+            "conflicts": [
+              "Big data applications with high scalability"
+            ]
+          }
+        },
+        "overall_confidence": "low"
+      }
+    ],
+    "suggested_followups": [
+      "open source data visualization and analytics platforms",
+      "cloud-native database management and monitoring tools",
+      "NoSQL document stores and graph databases",
+      "database migration and schema management utilities"
+    ],
+    "cost": {
+      "total_search_api_calls": 12,
+      "total_pages_scraped": 31,
+      "total_llm_calls": 35,
+      "total_input_tokens": 21896,
+      "total_output_tokens": 13350,
+      "estimated_cost_usd": 0.0931,
+      "wall_clock_seconds": 57.06
+    }
+  }
+}

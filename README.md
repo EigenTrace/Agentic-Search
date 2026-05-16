@@ -99,17 +99,21 @@ SSE is one-way (server → client) which is exactly what we need — there are n
 - **Gap-filling cost**: Each gap query costs ~$0.01–0.02 in LLM + 1 Brave call. Capped at 10 per run; tune `MAX_GAP_SEARCHES` if you need more.
 - **No persistent results store**: Search results aren't persisted across pages; refreshing the browser starts over.
 
-## Cost & latency (representative)
+## Cost & latency (measured)
 
-These numbers come from `backend/eval/benchmark.py` on a warm cache:
+Numbers from `backend/eval/benchmark.py` (cold cache, Sonnet 4.5 for planner/follow-ups, Haiku 4.5 for extraction). Raw JSONs are checked in under [`backend/eval_results/`](backend/eval_results/).
 
-| Query | Entities | Latency | Cost |
-|---|---|---|---|
-| AI startups in healthcare | ~12 | 35–55s | $0.06–0.10 |
-| top pizza places in Brooklyn | ~10 | 30–45s | $0.04–0.08 |
-| open source database tools | ~14 | 40–60s | $0.07–0.11 |
+| Query | Type | Entities | Fill rate | High | Med | Low | Unverif | Cost | Latency | LLM calls | Pages |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| AI startups in healthcare | company | 49 | 48% | 1 | 125 | 88 | 0 | $0.106 | 68.6s | 37 | 27 |
+| top pizza places in Brooklyn | restaurant | 25 | 62% | 1 | 97 | 25 | 1 | $0.084 | 90.3s | 37 | 26 |
+| open source database tools | software tool | 16 | 49% | 11 | 18 | 39 | 2 | $0.093 | 57.1s | 35 | 31 |
 
-Roughly: **planning $0.01 · extraction $0.04 · gap-filling $0.03 · follow-ups $0.005**. Re-runs (cache hits on search + scrape) drop to ~$0.04 and ~10s.
+**Average: ~30 entities · 53% fill rate · $0.094 · 72s · 36 LLM calls.** Warm-cache re-runs drop to ~$0.04 and ~15s because scrape (24h TTL) and search (1h TTL) are reused.
+
+### Observation: HIGH confidence is rare
+
+The HIGH confidence bucket requires ≥2 distinct domains agreeing on the exact value. With 15 URLs spread across ≤2-per-domain diversity, most cells end up with a single source → MEDIUM. This is a *retrieval* limitation, not an extraction one: the same fact rarely appears verbatim across the 8–10 distinct domains we sample. Lifting the per-domain cap would inflate HIGH counts but reduce coverage diversity — the current tradeoff favors breadth.
 
 ## Setup
 

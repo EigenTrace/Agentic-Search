@@ -1,0 +1,3225 @@
+{
+  "query": "AI startups in healthcare",
+  "entity_type": "company",
+  "columns": [
+    "name",
+    "website",
+    "description",
+    "founding_year",
+    "headquarters_location",
+    "funding_amount",
+    "focus_area",
+    "key_product",
+    "stage"
+  ],
+  "n_entities": 49,
+  "fill_rate": 0.485,
+  "confidence_distribution": {
+    "medium": 125,
+    "low": 88,
+    "high": 1
+  },
+  "cost_usd": 0.1058,
+  "latency_s": 68.64,
+  "llm_calls": 37,
+  "pages_scraped": 27,
+  "result": {
+    "query": "AI startups in healthcare",
+    "schema": {
+      "entity_type": "company",
+      "columns": [
+        "name",
+        "website",
+        "description",
+        "founding_year",
+        "headquarters_location",
+        "funding_amount",
+        "focus_area",
+        "key_product",
+        "stage"
+      ],
+      "column_descriptions": {
+        "name": "Company name",
+        "website": "Official company website URL",
+        "description": "Brief description of what the company does",
+        "founding_year": "Year the company was founded",
+        "headquarters_location": "City and country of headquarters",
+        "funding_amount": "Total funding raised (in USD)",
+        "focus_area": "Specific healthcare domain (e.g., diagnostics, drug discovery, patient care)",
+        "key_product": "Main product or service offering",
+        "stage": "Company stage (seed, Series A/B/C, growth, etc.)"
+      }
+    },
+    "entities": [
+      {
+        "entity_name": "CodaMetrix",
+        "cells": {
+          "name": {
+            "value": "CodaMetrix",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "CodaMetrix",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "automates healthcare revenue cycle management",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "CodaMetrix's tech automates healthcare revenue cycle management",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "founding_year": {
+            "value": "2019",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Spun out of Mass General Brigham in 2019",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$95 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $95 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "billing and claims",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "billing and claims",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "healthcare revenue cycle management automation",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "CodaMetrix's tech automates healthcare revenue cycle management",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Series B",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "CodaMetrix grabbed a $40 million Series B in March",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://www.codametrix.com/",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.codametrix.com/",
+                "page_title": "CodaMetrix \u2014 Code For Better, Contextual Coding Automation",
+                "quote_snippet": "Text sourced from https://www.codametrix.com/",
+                "scraped_at": "2026-05-16T20:27:53+00:00"
+              },
+              {
+                "url": "https://www.codametrix.com/about",
+                "page_title": "CodaMetrix\u2014Made By Providers. For Providers.",
+                "quote_snippet": "from https://www.codametrix.com/about",
+                "scraped_at": "2026-05-16T20:27:53+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "headquarters_location": {
+            "value": "Boston, Massachusetts, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.cbinsights.com/company/codametrix",
+                "page_title": "CodaMetrix - Products, Competitors, Financials, Employees, Headquarters Locations",
+                "quote_snippet": "It was founded in 2019 and is based in Boston, Massachusetts. Headquarters Location 399 Boylston Street Suite 700 Boston, Massachusetts, 02116, United",
+                "scraped_at": "2026-05-16T20:27:55+00:00"
+              },
+              {
+                "url": "https://www.cbinsights.com/company/codametrix",
+                "page_title": "CodaMetrix - Products, Competitors, Financials, Employees, Headquarters Locations",
+                "quote_snippet": "BOSTON, Feb. 4, 2026 /PRNewswire/ -- CodaMetrix, the market leader in autonomous medical coding",
+                "scraped_at": "2026-05-16T20:27:55+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Equality AI",
+        "cells": {
+          "name": {
+            "value": "Equality AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Equality AI helps healthcare organizations develop and deploy AI ethically",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Helps healthcare organizations develop and deploy AI ethically",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Equality AI helps healthcare organizations develop and deploy AI ethically",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "founding_year": {
+            "value": "2021",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Equality AI, cofounded in 2021",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$1.45 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $1.45 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "AI ethics, bias reduction in healthcare AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "reduce unconscious bias in healthcare AI models",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Healthcare-specific AI guardrails and policy creation/execution platform",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "EqualityAI allows for the creation and execution of policies",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "seed",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "graduated from the Alchemist Accelerator earlier this year",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://www.equalityai.com/",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.equalityai.com/",
+                "page_title": "EqualityAi.com \u2014 Premium Domain For Sale | Atom",
+                "quote_snippet": "from https://www.equalityai.com/",
+                "scraped_at": "2026-05-16T20:59:33+00:00"
+              },
+              {
+                "url": "https://www.equalityai.com/",
+                "page_title": "EqualityAi.com \u2014 Premium Domain For Sale | Atom",
+                "quote_snippet": "from https://www.equalityai.com/",
+                "scraped_at": "2026-05-16T20:59:33+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "headquarters_location": {
+            "value": "Park City, Utah, United States",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.cbinsights.com/company/equality-ai",
+                "page_title": "Equality AI - Products, Competitors, Financials, Employees, Headquarters Locations",
+                "quote_snippet": "It was founded in 2021 and is based in Park City, Utah. Equality AI ceased its operation in January 2025.",
+                "scraped_at": "2026-05-16T20:59:37+00:00"
+              },
+              {
+                "url": "https://www.cbinsights.com/company/equality-ai",
+                "page_title": "Equality AI - Products, Competitors, Financials, Employees, Headquarters Locations",
+                "quote_snippet": "Equality AI's headquarters is located at 570 Aspen Drive, Park City.",
+                "scraped_at": "2026-05-16T20:59:37+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Rippl",
+        "cells": {
+          "name": {
+            "value": "Rippl",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Rippl",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "provides value-based mental healthcare to seniors",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Rippl provides value-based mental healthcare to seniors",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "founding_year": {
+            "value": "2022",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Launched in 2022",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$32.5 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $32.5 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "mental healthcare and dementia care",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "key strides in dementia care",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Mental healthcare, dementia care"
+            ]
+          },
+          "key_product": {
+            "value": "Value-based mental healthcare platform for seniors with dementia care services",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "value-based mental healthcare to seniors",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Growth",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "website": {
+            "value": "https://ripple.com/",
+            "confidence": "high",
+            "sources": [
+              {
+                "url": "https://ripple.com/",
+                "page_title": "Financial Infrastructure &amp; Blockchain Technology Solutions | Ripple",
+                "quote_snippet": "from https://ripple.com/",
+                "scraped_at": "2026-05-16T20:59:42+00:00"
+              },
+              {
+                "url": "https://www.ripplnetwork.com/",
+                "page_title": "Rippl Retail Media Network | Connecting advertisers with hard-to-reach shoppers",
+                "quote_snippet": "Text source attribution: (from https://www.ripplnetwork.com/)",
+                "scraped_at": "2026-05-16T20:59:42+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "headquarters_location": {
+            "value": "Gurgaon, India",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.cbinsights.com/company/rippl",
+                "page_title": "Rippl - Products, Competitors, Financials, Employees, Headquarters Locations",
+                "quote_snippet": "Headquarters Location\nE-83 Richmond Park DLF City IV\nGurgaon, 122009,\nIndia",
+                "scraped_at": "2026-05-16T20:59:46+00:00"
+              },
+              {
+                "url": "https://www.cbinsights.com/company/rippl",
+                "page_title": "Rippl - Products, Competitors, Financials, Employees, Headquarters Locations",
+                "quote_snippet": "Rippl's headquarters is located at E-83 Richmond Park, Gurgaon.",
+                "scraped_at": "2026-05-16T20:59:46+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Xaira Therapeutics",
+        "cells": {
+          "name": {
+            "value": "Xaira Therapeutics",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Xaira Therapeutics",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "founding_year": {
+            "value": "2024",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Launched in 2024",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "headquarters_location": {
+            "value": "San Francisco, USA",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "this San Francisco-based startup",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "USD 1 billion",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "landed a whopping USD 1 billion Series A round in 2024",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": [
+              "$1 billion"
+            ]
+          },
+          "focus_area": {
+            "value": "drug discovery",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "to turbocharge drug discovery with AI",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI platforms combining machine learning and computational biology to design new drugs",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "platforms that combine machine learning and computational biology to design new drugs",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": [
+              "AI-powered drug discovery"
+            ]
+          },
+          "stage": {
+            "value": "Series A",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "landed a whopping USD 1 billion Series A round in 2024",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Clarium",
+        "cells": {
+          "name": {
+            "value": "Clarium",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Clarium",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Uses AI to streamline hospital supply chains and reduce waste",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Clarium uses AI to streamline hospital supply chains and reduce waste",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$10.5 million",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "the company announced it had raised $10.5 million in strategic funding",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "$16 million"
+            ]
+          },
+          "focus_area": {
+            "value": "Hospital supply chain management",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "hospital supply chains",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-powered hospital supply chain optimization and inventory management",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "automating processes like managing inventory and addressing supply chain disruptions",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Growth",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Ezra",
+        "cells": {
+          "name": {
+            "value": "Ezra",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Ezra",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "AI tech pairs with full-body MRI scans for early detection of health conditions like cancer",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Ezra's AI tech pairs with full-body MRI scans for early detection of health conditions like cancer",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$41 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $41 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "diagnostics, preventive care",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "early detection of health conditions like cancer",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "full-body MRI scans with AI for early detection",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI tech pairs with full-body MRI scans for early detection",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "AI-powered full-body MRI scan analysis"
+            ]
+          },
+          "stage": {
+            "value": "Series B",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "CEO Emi Gal told Business Insider in February at the time of Ezra's $21 million Series B raise",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "NOCD",
+        "cells": {
+          "name": {
+            "value": "NOCD",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "NOCD offers virtual care for obsessive-compulsive disorder",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "NOCD offers virtual care for obsessive-compulsive disorder through more than 300 specialized therapists",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "NOCD works with dozens of health plans to provide hard-to-get OCD care through its more than 300 specialized therapists",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$84 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $84 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "obsessive-compulsive disorder, virtual care",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "NOCD offers virtual care for obsessive-compulsive disorder",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "virtual care for obsessive-compulsive disorder",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "NOCD offers virtual care for obsessive-compulsive disorder",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Growth",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "NOCD last raised a $34 million funding round in February 2023",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Pelago",
+        "cells": {
+          "name": {
+            "value": "Pelago",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Pelago",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Provides virtual care for substance use disorders",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Pelago provides virtual care for substance use disorders.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$151 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $151 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Substance use disorder treatment, addiction care, mental health",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "addiction care benefits for substance use disorders including alcohol, tobacco, and opioids",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Virtual care platform with telehealth, remote monitoring, prescriptions, and virtual therapy sessions",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "combination of telehealth, remote monitoring, access to prescriptions, and virtual therapy sessions",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Series C",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "The startup landed a $58 million Series C led by Atomico in March.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Sensi.AI",
+        "cells": {
+          "name": {
+            "value": "Sensi.AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Sensi.AI provides tools to home care agencies working with seniors.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Provides tools to home care agencies working with seniors using AI-powered audio analysis",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Sensi.AI provides tools to home care agencies working with seniors.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$53.5 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $53.5 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Senior care, home care management",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Sensi.AI aims to reduce caregiver burden with its AI tech that uses audio analysis",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI technology using audio analysis to detect, respond to, and record care events",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI tech that uses audio analysis to detect, respond to, and record \"care events\"",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Growth",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Solara Health",
+        "cells": {
+          "name": {
+            "value": "Solara Health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Solara Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Building AI copilots for behavioral health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Solara Health is building AI copilots for behavioral health.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$4.5 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Solara raised a $4.5 million seed round in February",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "behavioral health",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "address healthcare's labor shortage with more efficient care starting in behavioral health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI platform for automating administrative and clinical tasks in mental health treatment",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI platform helps automate both administrative and clinical tasks for healthcare workers",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "seed",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Solara raised a $4.5 million seed round in February",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "AliveCor",
+        "cells": {
+          "name": {
+            "value": "AliveCor",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AliveCor",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Helps people remotely manage their heart health with connected devices like personal electrocardiograms",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AliveCor helps people remotely manage their heart health with connected",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$307.6 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $307.6 million, according to PitchBook",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "cardiology, remote patient monitoring",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "remotely manage their heart health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "cardiac care, diagnostics"
+            ]
+          },
+          "key_product": {
+            "value": "FDA-approved AI for cardiac condition detection, pocket-sized ECG device",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "new pocket-sized ECG to measure the electrical impulses of a patient's heart",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Connected heart health management platform"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Anterior",
+        "cells": {
+          "name": {
+            "value": "Anterior",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Anterior",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Makes AI-powered prior authorization tech for health insurers",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Anterior makes AI-powered prior authorization tech for health insurers",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$23 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $23 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "healthcare administration, insurance",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Anterior provides its tech to clinicians working at health insurers to help them more quickly and accurately determine how medical services are paid f",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-powered prior authorization technology",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI-powered prior authorization tech for health insurers",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Jaan Health",
+        "cells": {
+          "name": {
+            "value": "Jaan Health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Jaan Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Offers text-based care coordination for patients with chronic conditions and their providers",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Jaan Health offers text-based care coordination for patients with chronic conditions and their providers.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$12 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $12 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "chronic condition management, patient care",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "helps reduce the labor and cost burdens associated with chronic condition management",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Phamily",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Jaan Health's software, called Phamily",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "NeuroFlow",
+        "cells": {
+          "name": {
+            "value": "NeuroFlow",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: NeuroFlow",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Uses natural language processing of patients' journal entries in its app to detect suicidal ideation and help providers intervene earlier",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "The startup published a study in February of its AI tech that uses natural language processing of patients' journal entries in its app to detect suici",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Creates behavioral health solutions to help healthcare organizations better track and support patients in between appointments"
+            ]
+          },
+          "funding_amount": {
+            "value": "$57 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $57 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "behavioral health, mental health",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "behavioral health solutions",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI tech that uses natural language processing of patients' journal entries to detect suicidal ideation",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI tech that uses natural language processing of patients' journal entries in its app to detect suicidal ideation",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Behavioral health app with backend clinical alert tools"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Redox",
+        "cells": {
+          "name": {
+            "value": "Redox",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Redox",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "platform allows providers, payers, and other healthcare organizations to easily connect to healthcare data sources",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Redox's platform allows providers, payers, and other healthcare organizations to easily connect to healthcare data sources",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$95 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $95 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "healthcare data interoperability",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "real-time healthcare data interoperability",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "real-time healthcare data interoperability platform",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "full-service, real-time healthcare data interoperability that integrates clinical data into enterprise workflows",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Waymark",
+        "cells": {
+          "name": {
+            "value": "Waymark",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Waymark",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Healthcare AI company with applications in predicting avoidable ER and hospital utilization",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "algorithm's 90% accuracy in predicting avoidable ER and hospital utilization for Medicaid patients",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Helps providers manage care for patients on Medicaid"
+            ]
+          },
+          "funding_amount": {
+            "value": "$87 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $87 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "patient care, hospital utilization prediction",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "predicting avoidable ER and hospital utilization",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "patient care, Medicaid management"
+            ]
+          },
+          "key_product": {
+            "value": "Algorithm for predicting avoidable ER and hospital utilization for Medicaid patients",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "algorithm's 90% accuracy in predicting avoidable ER and hospital utilization for Medicaid patients",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Technology and community health worker mobilization for Medicaid patient care"
+            ]
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Hippocratic AI",
+        "cells": {
+          "name": {
+            "value": "Hippocratic AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Hippocratic AI",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "USD 141 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "grabbing USD 141 million in a Series B",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "clinical tasks",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "to bring generative AI to clinical tasks",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "generative AI for clinical tasks",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "generative AI to clinical tasks",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Series B",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "grabbing USD 141 million in a Series B",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Insilico Medicine",
+        "cells": {
+          "name": {
+            "value": "Insilico Medicine",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Insilico Medicine",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "USD 100 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "securing USD 100 million in a Series E",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "pharmaceutical R&D",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "AI-driven pharmaceutical R&D",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-driven pharmaceutical R&D",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "AI-driven pharmaceutical R&D",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Series E",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "securing USD 100 million in a Series E",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Exscientia",
+        "cells": {
+          "name": {
+            "value": "Exscientia",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "like Exscientia",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Uses generative AI to design brand-new molecules for tough diseases",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Generative AI is a game-changer here, designing brand-new molecules for tough diseases like cancer and Alzheimer's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "drug discovery",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "designing brand-new molecules for tough diseases like cancer and Alzheimer's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-designed molecules for cancer and Alzheimer's",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Generative AI is a game-changer here, designing brand-new molecules for tough diseases like cancer and Alzheimer's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Khosla Ventures",
+        "cells": {
+          "name": {
+            "value": "Khosla Ventures",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "VC firm",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "top VC firms such as Khosla Ventures",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "healthcare AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "healthcare startups using AI to improve healthcare",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Lux Capital",
+        "cells": {
+          "name": {
+            "value": "Lux Capital",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "VC firm",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "top VC firms such as Khosla Ventures, Lux Capital",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "healthcare AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "healthcare startups using AI to improve healthcare",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Insight Partners",
+        "cells": {
+          "name": {
+            "value": "Insight Partners",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "VC firm",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "top VC firms such as Khosla Ventures, Lux Capital, and Insight Partners",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "healthcare AI",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "healthcare startups using AI to improve healthcare",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Memorial Hermann",
+        "cells": {
+          "name": {
+            "value": "Memorial Hermann",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Memorial Hermann",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Health system",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "health system",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "headquarters_location": {
+            "value": "Houston-based",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Houston-based Memorial Hermann",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Mental Health America",
+        "cells": {
+          "name": {
+            "value": "Mental Health America",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Mental Health America",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Nonprofit organization",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "the nonprofit Mental Health America",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Mental health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "mental health services",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Talkiatry",
+        "cells": {
+          "name": {
+            "value": "Talkiatry",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Talkiatry",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Mental health startup",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Mental health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "deals with other startups like Talkiatry",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Mantra Health",
+        "cells": {
+          "name": {
+            "value": "Mantra Health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Mantra Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Mental health startup",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Mental health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "deals with other startups like Talkiatry and Mantra Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Kinto",
+        "cells": {
+          "name": {
+            "value": "Kinto",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Rippl also acquired AI-powered dementia startup Kinto in April",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "AI-powered dementia care startup",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI-powered dementia startup Kinto",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Dementia care",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "AI-powered dementia startup Kinto in April to help train and support more dementia caregivers",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "IBM",
+        "cells": {
+          "name": {
+            "value": "IBM",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "IBM's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Provides Watson AI solution for pharmaceutical R&D",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Pfizer's tapped IBM's Watson for R&D efficiency",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Watson for R&D efficiency",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "IBM's Watson for R&D efficiency",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "General Catalyst",
+        "cells": {
+          "name": {
+            "value": "General Catalyst",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "General Catalyst",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Venture fund",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "led by General Catalyst",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Alzheimer's Association",
+        "cells": {
+          "name": {
+            "value": "Alzheimer's Association",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "partnership with the Alzheimer's Association",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "Dementia care, Alzheimer's disease",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "partnership with the Alzheimer's Association",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Boston Scientific",
+        "cells": {
+          "name": {
+            "value": "Boston Scientific",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Boston Scientific",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "WATCHMAN FLX\u2122 Pro",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Boston Scientific's WATCHMAN FLX\u2122 Pro",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Quest Diagnostics",
+        "cells": {
+          "name": {
+            "value": "Quest Diagnostics",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Quest Diagnostics",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AAV Test",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Quest Diagnostics's AAV Test",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Vitestro",
+        "cells": {
+          "name": {
+            "value": "Vitestro",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Vitestro",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "A.D.O.P.T.",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Vitestro Started A.D.O.P.T.",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Medtronic",
+        "cells": {
+          "name": {
+            "value": "Medtronic",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Medtronic",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Adaptive Deep Brain Stimulation System for Parkinson's",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Medtronic Secures FDA Approval for First-Ever Adaptive Deep Brain Stimulation System for Parkinso",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Fluidx Medical",
+        "cells": {
+          "name": {
+            "value": "Fluidx Medical",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Fluidx Medical",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "GPX Embolic Device",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Fluidx Medical's GPX Embolic Device",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Bayer",
+        "cells": {
+          "name": {
+            "value": "Bayer",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Bayer's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Big pharma company partnering with AI firms to speed up drug discovery",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Bayer's working with AI firms to speed up drug discovery for cancer and heart disease",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Pfizer",
+        "cells": {
+          "name": {
+            "value": "Pfizer",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Pfizer's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Big pharma company using IBM's Watson for R&D efficiency",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Pfizer's tapped IBM's Watson for R&D efficiency",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Sanofi",
+        "cells": {
+          "name": {
+            "value": "Sanofi",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Sanofi's",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Big pharma company that acquired Amunix Pharmaceuticals",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Mergers like Sanofi's acquisition of Amunix Pharmaceuticals",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Amunix Pharmaceuticals",
+        "cells": {
+          "name": {
+            "value": "Amunix Pharmaceuticals",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Amunix Pharmaceuticals",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "AI startup acquired by Sanofi",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Sanofi's acquisition of Amunix Pharmaceuticals show how AI is becoming a must-have",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "medium"
+      },
+      {
+        "entity_name": "Abridge",
+        "cells": {
+          "name": {
+            "value": "Abridge",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Abridge",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Generative AI tech that transcribes patient-doctor interactions and documents visits in electronic health records",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Abridge's generative AI tech transcribes patient-doctor interactions and documents those visits in electronic health records",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$212.5 million",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $212.5 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "$212.5M"
+            ]
+          },
+          "focus_area": {
+            "value": "clinical documentation, administrative burden reduction",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "relieve administrative burdens from clinicians",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Generative AI transcription and EHR documentation system",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "generative AI tech transcribes patient-doctor interactions and documents those visits in electronic health records",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "Series C",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Abridge raised a $150 million Series C round in February",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Bayesian Health",
+        "cells": {
+          "name": {
+            "value": "Bayesian Health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Bayesian Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Delivers AI-powered clinical insights to hospitals to detect conditions like sepsis",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Bayesian Health delivers AI-powered clinical insights to hospitals to detect conditions like sepsis.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$15 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $15 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "diagnostics, acute condition detection",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "analyze patient data and help providers predict and prevent life-threatening conditions",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-powered clinical insights platform integrated with electronic health records",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "the platform should readily extend to address other acute conditions such as pulmonary embolisms, pressure ulcers, and deep venous thrombosis",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "growth",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Grow Therapy",
+        "cells": {
+          "name": {
+            "value": "Grow Therapy",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Grow Therapy",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Helps therapists start and run their own practices, and provides virtual and in-person mental healthcare to patients",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Grow Therapy helps therapists start and run their own practices, and provides virtual and in-person mental healthcare to patients.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$178 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $178 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "patient care, mental healthcare",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "provides virtual and in-person mental healthcare to patients",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "Practice management and virtual/in-person mental healthcare platform",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "helps therapists start and run their own practices, and provides virtual and in-person mental healthcare",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "growth",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Health Note",
+        "cells": {
+          "name": {
+            "value": "Health Note",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Health Note",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "AI-powered medical scribe software that automates documentation across the entire patient experience from intake forms to post-visit follow-ups",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "seeks to automate documentation across the entire patient experience \u2014 from filling out intake forms to visiting the doctor's office and checking in w",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Automates clinical documentation around patient intake, doctor's visits, and post-visit follow-ups"
+            ]
+          },
+          "funding_amount": {
+            "value": "$24 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $24 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "clinical documentation, patient intake automation",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "surface clinical insights along that journey",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "clinical documentation, medical scribe software"
+            ]
+          },
+          "key_product": {
+            "value": "AI-powered clinical documentation automation",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "automates clinical documentation around patient intake, doctor's visits, and post-visit follow-ups",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "AI-powered medical scribe software"
+            ]
+          },
+          "stage": {
+            "value": "growth",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Hello Heart",
+        "cells": {
+          "name": {
+            "value": "Hello Heart",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Hello Heart",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "App paired with connected blood pressure monitor that helps patients manage their cardiovascular health at home",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Hello Heart's app, paired with a connected blood pressure monitor, helps patients manage their cardiovascular health at home",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$138 million",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $138 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "cardiovascular health management",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "manage their cardiovascular health at home",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-driven health insights app with connected blood pressure monitor",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Hello Heart's app, paired with a connected blood pressure monitor",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "stage": {
+            "value": "growth",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Photon Health",
+        "cells": {
+          "name": {
+            "value": "Photon Health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Photon Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Pharmacy fulfillment platform allowing patients to receive prescriptions on phones and shop for lower costs",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "pharmacy fulfillment platform allows patients to receive their prescriptions on their phones and shop around for lower costs",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "funding_amount": {
+            "value": "$16.4 million",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Total funding: $16.4 million",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "$9 million"
+            ]
+          },
+          "focus_area": {
+            "value": "Pharmacy fulfillment, prescription management",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "prescribing tools use AI to improve prescription ordering and fulfillment",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "medication fulfillment and adherence"
+            ]
+          },
+          "key_product": {
+            "value": "Pharmacy fulfillment platform with AI-powered prescribing tools",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "pharmacy fulfillment platform allows patients to receive their prescriptions on their phones",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "prescription fulfillment platform"
+            ]
+          },
+          "stage": {
+            "value": "Seed",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Flare Capital Partners led Photon Health's $9 million seed round in August.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Charlie Health",
+        "cells": {
+          "name": {
+            "value": "Charlie Health",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Startup: Charlie Health",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Provides intensive outpatient mental health services to teens and young adults online",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "Charlie Health provides intensive outpatient mental health services to teens and young adults online.",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "patient care, mental health",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "intensive outpatient mental health services to teens and young adults",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Mental health services"
+            ]
+          },
+          "key_product": {
+            "value": "Online intensive outpatient mental health services for teens and young adults",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "intensive outpatient mental health services to teens and young adults online",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": [
+              "Intensive outpatient mental health services platform"
+            ]
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "GenomicDAO",
+        "cells": {
+          "name": {
+            "value": "GenomicDAO",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Startups like GenomicDAO",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Uses AI to create treatments tailored to your DNA, lifestyle, and health history",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "using AI to create treatments tailored to your DNA, lifestyle, and health history",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "personalized medicine",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Personalized Medicine",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-tailored treatments based on DNA, lifestyle, and health history",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "using AI to create treatments tailored to your DNA, lifestyle, and health history",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "ExactCure",
+        "cells": {
+          "name": {
+            "value": "ExactCure",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "ExactCure",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "Uses AI to create treatments tailored to your DNA, lifestyle, and health history",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "using AI to create treatments tailored to your DNA, lifestyle, and health history",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "personalized medicine",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "Personalized Medicine",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "key_product": {
+            "value": "AI-tailored treatments based on DNA, lifestyle, and health history",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.delveinsight.com/blog/ai-healthcare-startups-funding-trends",
+                "page_title": "AI Healthcare Startups: Investment &amp; Funding Trends",
+                "quote_snippet": "using AI to create treatments tailored to your DNA, lifestyle, and health history",
+                "scraped_at": "2026-05-16T20:01:36+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      },
+      {
+        "entity_name": "Owl",
+        "cells": {
+          "name": {
+            "value": "Owl",
+            "confidence": "medium",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "The company most recently bought measurement-based care company Owl in June",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "description": {
+            "value": "measurement-based care company",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "measurement-based care company Owl",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          },
+          "focus_area": {
+            "value": "measurement-based care",
+            "confidence": "low",
+            "sources": [
+              {
+                "url": "https://www.businessinsider.com/22-most-promising-healthcare-ai-startups-2024-8",
+                "page_title": "Most Promising Healthcare AI Startups of 2024, According to VCs - Business Insider",
+                "quote_snippet": "measurement-based care company Owl",
+                "scraped_at": "2026-05-16T20:01:35+00:00"
+              }
+            ],
+            "conflicts": null
+          }
+        },
+        "overall_confidence": "low"
+      }
+    ],
+    "suggested_followups": [
+      "AI drug discovery companies",
+      "mental health tech startups",
+      "medical imaging AI companies",
+      "healthcare AI funding rounds 2024"
+    ],
+    "cost": {
+      "total_search_api_calls": 5,
+      "total_pages_scraped": 27,
+      "total_llm_calls": 37,
+      "total_input_tokens": 22727,
+      "total_output_tokens": 15748,
+      "estimated_cost_usd": 0.1058,
+      "wall_clock_seconds": 68.64
+    }
+  }
+}
